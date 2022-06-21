@@ -1,0 +1,207 @@
+.imgCarousel{
+    width: 24%;
+}
+.titulo{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 37px;
+    margin-left: 10%;
+}
+.menu{
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    margin-left: 50%;
+}
+.principal{
+    width: 80%;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #373A3C;
+}
+.principal-card{
+    color: #373A3C;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.botonera{
+    width: 60%;
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.boton1{
+    background-color: white;
+    border: solid 1px #DDDDDD;
+    color: #373A3C;
+    padding: 10px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+}
+.boton2{
+    background-color: white;
+    border: solid 1px #DDDDDD;
+    color: #373A3C;
+    padding: 10px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+}
+[data-tooltip] {
+    &:hover {
+      &:before, &:after {
+        display:block;
+        position:absolute;
+        font-size:0.8em;
+        color:white;
+      }
+      &:before {
+        border-radius:0.2em;
+        content:attr(title);
+        background-color:$alphablack;
+        margin-top:-2.5em;
+        padding:0.3em;
+      }
+      &:after {
+        content:'';
+        margin-top:-2.1em;
+        margin-left:1em;
+        border-style:solid;
+        border-color:transparent;
+        border-top-color:$alphablack;
+        border-width:0.5em 0.5em 0 0.5em;
+      }
+    }
+  }
+  .cartasM{
+      color: #373A3C;
+      font-family: 'Cabin', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+  }
+  .receta1{
+      font-size: 16px;
+  }
+  .relacionadas{
+     color: #373A3C;
+     font-family: 'Cabin', sans-serif;
+     font-weight: 700;
+     font-size: 40px;
+     display: flex;
+     justify-content: center;
+     margin-top: 35px;
+     margin-bottom: 35px;
+  }
+  .tit-card{
+    color: #373A3C;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+  }
+  .tex-car{
+    color: #373A3C;
+    font-family: 'Cabin'; 
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .suscripcion{
+      background-color: #DC3545;
+      color: #DDDDDD;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 534px;
+      padding-right: 37px;
+      padding-left: 37px;
+      padding-bottom: 150px;
+  }
+  .h2p{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 150px;
+    text-align: center;
+  }
+  .pi{
+    font-family: 'Lobster', cursive;
+    font-weight: 400; 
+    font-size: 20px;
+    text-align: center;
+  }
+.boton3{
+    background-color: #DC3545;
+    border-color:#DDDDDD;
+    color: #DDDDDD;
+   height: 40px;
+   width: 200px;
+   font-family: 'Cabin', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   align-self: center;
+}
+.footer{
+    background-color: #373A3C;
+    width: 100%;
+    height: 128px;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    color: #DDDDDD;
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .principal{
+        width: 100%;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #373A3C;
+        text-align: center;
+    }
+    .principal-card{
+        color: #373A3C;
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .botonera{
+        width: 100%;
+        padding-top: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .boton1{
+        background-color: white;
+        border: solid 1px #DDDDDD;
+        color: #373A3C;
+        padding: 5px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 400;
+        font-size: 16px; 
+    }
+    .boton2{
+        background-color: white;
+        border: solid 1px #DDDDDD;
+        color: #373A3C;
+        padding: 5px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 400;
+        font-size: 16px; 
+    }
+    .recetas-rel .row .col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
